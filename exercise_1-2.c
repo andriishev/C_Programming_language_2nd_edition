@@ -1,4 +1,4 @@
-#include <stdio.h>              /* include information about standart I/O library */
+#include <stdio.h>              /* include information about standard I/O library */
 
 int main()                      
 {
