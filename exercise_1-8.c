@@ -20,5 +20,5 @@ int main()
 		else if (c == '\t')
 			++tb;
 	}
-	printf("Total number of newlines = %d; blanks = %d; tabs = %d\n",nl, bl, tb);
+	printf("Total number of newlines = %d; blanks = %d; tabs = %d\n", nl, bl, tb);
 }
