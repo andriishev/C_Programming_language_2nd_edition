@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+/* program to remove one or more blanks by a single blank */
+
 int main()
 {
 	int c, bl;
