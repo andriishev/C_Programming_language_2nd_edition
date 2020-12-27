@@ -6,7 +6,7 @@ int main()
 
 	bl = 0;			/* blank counter */
 
-	while((c = getchar()) != EOF){
+	while ((c = getchar()) != EOF){
 		if (bl == 0){
 			if(c == ' '){
 			putchar(' ');
