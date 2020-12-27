@@ -9,7 +9,7 @@ int main()
 	while((c = getchar()) != EOF){
 		if(c == ' ' && bl == 0){
 			putchar(' ');
-				++bl;
+			++bl;
 		}
  		else if (c != ' '){
 			putchar(c);
