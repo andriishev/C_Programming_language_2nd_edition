@@ -13,7 +13,7 @@ int main()
 	
 	fahr = lower;
 
-	printf("Fahr	Celsius Table\n");		/* printing  a heading above the table */
+	printf("Fahr\tCelsius Table\n");		/* printing  a heading above the table */
 	
 	while(fahr <= upper){
 		celsius = (5.0/9.0) * (fahr - 32.0);
