@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+/* program to print its input one word per line */
+
 #define IN 1	/* inside a word */
 #define OUT 0	/* outside a word */
 
