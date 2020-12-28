@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+/* program to replace each tab by '\t', backspace by '\b' and backsalsh by '\\' */
+
 int main()
 {
 	int c;
