@@ -4,8 +4,7 @@ int main()
 {
 	int c;
 
-	while((c = getchar()) != EOF)
-	{
+	while((c = getchar()) != EOF){
 		if(c == '\t'){
 			putchar('\\');
 			c = 't';
