@@ -9,8 +9,8 @@ int main()
 {
 	int c ,char_count, h_index, state, i;
 
-	char_count = 0;				// counting lengths of words
-	h_index = 0;				// histogram index
+	char_count = 0;				/* counting lengths of words */
+	h_index = 0;				/* histogram index */
 	state = OUT;
 
 	while((c = getchar()) != EOF)
