@@ -51,7 +51,3 @@ int main()
 		printf("\n");
 	}
 }
-
- 
-
-
