@@ -10,8 +10,8 @@ int main()
 	int lower, upper, step;
 
 	lower = 0; 					/* lower limt of temperature */
-	upper = 300; 				/* upper limit 				 */
-	step = 20;					/* step size 				 */
+	upper = 300; 					/* upper limit 	*/
+	step = 20;					/* step size  */
 	
 	fahr = lower;
 
