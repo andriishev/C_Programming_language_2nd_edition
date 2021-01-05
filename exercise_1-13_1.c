@@ -16,7 +16,7 @@ int main()
 	index = 0;
 	state = OUT;
 	
-	for(i = 0; i < SIZE; i++){				/* assigning 0 to array */
+	for(i = 0; i < SIZE; i++){				/* assigning 0 to an array */
 		words_lenght[i] = 0;
 	}
 
