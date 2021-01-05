@@ -10,14 +10,14 @@ int main()
 	for(i = 0; i <= 52; ++i)			/* assigning 0 to an array */
 		histogram[i] = 0;
 
-	while((c = getchar()) != EOF){		/* assignig frequencies of char to an array */
+	while((c = getchar()) != EOF){			/* assignig frequencies of char to an array */
 		if(c >= 'a' && c <= 'z') 
 			histogram[c - 'a']++;
 		else if(c >= 'A' && c <= 'Z')
 			histogram[c - '&']++;
 	}
 
-	for (i = 0; i < 26; ++i){				/* printing frequencies of lowercase char */
+	for (i = 0; i < 26; ++i){			/* printing frequencies of lowercase char */
 		printf("%c: ", 'a' + i);
 		for (j = 0; j < histogram[i]; ++j)
 			putchar('#');
