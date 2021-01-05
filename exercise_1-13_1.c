@@ -8,15 +8,15 @@
 
 int main()
 {
-	int c ,char_count, state, index, i, j, bg_w;
+	int c ,char_count, state, index, i, j, l_w;
 	int words_lenght[SIZE];
 
-	char_count = 0;				/* counting lengths of words */
-	bg_w = 0;					/* biggest word */
+	char_count = 0;						/* counting lengths of words */
+	l_w = 0;						/* longest word in the array */
 	index = 0;
 	state = OUT;
 	
-	for(i = 0; i < SIZE; i++){			/* assigning 0 to array */
+	for(i = 0; i < SIZE; i++){				/* assigning 0 to array */
 		words_lenght[i] = 0;
 	}
 
@@ -34,12 +34,12 @@ int main()
 		}
 	}
 	
-	for(index = 0; index < SIZE; index++){		/* looking for the longest word in the array */
-		if(words_lenght[index] > bg_w)
-		bg_w = words_lenght[index];
+	for(index = 0; index < SIZE; index++){			/* looking for the longest word in the array */
+		if(words_lenght[index] > l_w)
+		l_w = words_lenght[index];
 	}
 
-	for(j = bg_w; j >= 1; j--){						/* printing vertical histogram */
+	for(j = l_w; j >= 1; j--){				/* printing vertical histogram */
 		for(index = 0; index < SIZE; index++){
 			if( words_lenght[index] == j){
 				printf(" # ");
