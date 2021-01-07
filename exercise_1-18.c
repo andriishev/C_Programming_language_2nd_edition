@@ -12,7 +12,7 @@ int main()
 	char line[MAXLINE];			/* current input line */
 
 	while ((len = get_line(line, MAXLINE)) > 0)
-		if (len > MINLINE){
+		if (len >= MINLINE){
 			f_remove(line);
 			printf("your input line is: %s", line);
 		}
