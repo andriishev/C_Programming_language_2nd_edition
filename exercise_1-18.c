@@ -38,7 +38,7 @@ int get_line(char s[], int max_line)
 	return i;
 }
 
-/* function to reomve trailing blanks and tabs from each input */
+/* function to remove trailing blanks and tabs from each input */
 void f_remove(char c[])
 {	
 	int i = 0;
