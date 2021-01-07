@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define MAXLINE 1000	/* maximum input line size */
+#define MAXLINE 1000		/* maximum input line size */
 #define MINLINE 80		/* minimum input line size */
 
 int get_line(char s[], int max_line);
@@ -8,7 +8,7 @@ int get_line(char s[], int max_line);
 int main()
 {
 	int len;				/* current line length */
-	char line[MAXLINE];		/* current input line */
+	char line[MAXLINE];			/* current input line */
 
 	while ((len = get_line(line, MAXLINE)) > 0)
 		if (len > MINLINE) 
