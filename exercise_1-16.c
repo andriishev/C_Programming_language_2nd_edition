@@ -8,8 +8,8 @@ int main()
 {
 	int len;				/* current line length */
 	int max;				/* maximum lenght seen so far */
-	char line[MAXLINE];		/* current input line */
-	char longest[MAXLINE];	/* longest line saved */
+	char line[MAXLINE];			/* current input line */
+	char longest[MAXLINE];			/* longest line saved */
 	
 	max = 0;
 	while ((len = get_line(line, MAXLINE)) > 0){
@@ -19,7 +19,7 @@ int main()
 			copy(longest, line);
 		}
 	}
-	if (max > 0)  			/* there was a line */
+	if (max > 0)  				/* there was a line */
 		printf("Longest line :%s\n", longest);
 	return 0;
 
