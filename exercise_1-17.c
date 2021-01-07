@@ -11,7 +11,7 @@ int main()
 	char line[MAXLINE];			/* current input line */
 
 	while ((len = get_line(line, MAXLINE)) > 0)
-		if (len > MINLINE) 
+		if (len >= MINLINE) 
 			printf("your input line is: %s\n", line);
 		else
 			printf("your input line is too short\n");
