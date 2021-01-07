@@ -27,9 +27,5 @@ int main()
 
 float temp_conver(float fahr)
 {
-	float celsius;
-
-	celsius = (5.0/9.0) * (fahr - 32.0);
-
-	return celsius;
+	return (5.0/9.0) * (fahr - 32.0);
 }
