@@ -47,7 +47,6 @@ void reverse(char c[], int s, char new_line[])
 	int j,i = s - 2;
 
 	for (j = 0; j < s - 1; j++){
-
 		new_line[j] = c[i];
 		--i;
 	}
