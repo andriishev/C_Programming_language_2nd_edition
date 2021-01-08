@@ -9,8 +9,8 @@ void reverse(char c[], int s, char new_line[]);
 int main()
 {
 	int len;				/* current line length */
-	char line[MAXLINE];		/* current input line */
-	char r_line[MAXLINE];	/* reverse line */
+	char line[MAXLINE];			/* current input line */
+	char r_line[MAXLINE];			/* reverse line */
 
 	while ((len = get_line(line, MAXLINE)) > 0){
 		if (len >= MINLINE){
