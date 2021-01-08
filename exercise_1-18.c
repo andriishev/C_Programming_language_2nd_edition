@@ -9,7 +9,7 @@ void f_remove(char c[]);
 int main()
 {
 	int len;					/* current line length */
-	char line[MAXLINE];			/* current input line */
+	char line[MAXLINE];				/* current input line */
 
 	while ((len = get_line(line, MAXLINE)) > 0)
 		if (len >= MINLINE){
