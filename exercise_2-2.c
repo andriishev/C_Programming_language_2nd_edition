@@ -13,7 +13,6 @@ int main()
 	int i = 0;
 
 	while(cheсk == YES){
-
 		if(i > max_line - 1)
  			cheсk = NO;
 		else if((c = getchar()) == EOF)
